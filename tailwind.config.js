@@ -15,6 +15,7 @@ export default {
         Blue: '#3661FC',
         Rectangle: '#708FFF',
         iconC: '#95ACFF',
+        MenuC: '#1A1A1A',
       },
     },
   },
