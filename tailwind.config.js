@@ -16,6 +16,10 @@ export default {
         Rectangle: '#708FFF',
         iconC: '#95ACFF',
         MenuC: '#1A1A1A',
+        HoverC: '#FE681E',
+      },
+      backgroundImage: {
+        bannerPic: "url('/src/assets/bannerImage.png')",
       },
     },
   },
