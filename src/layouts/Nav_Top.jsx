@@ -45,7 +45,7 @@ const Nav_Top = () => {
             <FaAngleDown className="align-middle items-center flex mt-1 cursor-pointer" />
           </div>
           <div className="flex items-center gap-3 mt-3 md:mt-0">
-            <FaFacebookF className="text-iconC hover:text-[#FE651B] text-sm md:text-base" />
+            <FaFacebookF className="text-[#FE651B] text-sm md:text-base" />
             <h4 className="text-Rectangle hidden md:block">|</h4>
             <FaLinkedinIn className="text-iconC hover:text-[#FE651B] text-sm md:text-base" />
             <h4 className="text-Rectangle hidden md:block">|</h4>
@@ -60,3 +60,4 @@ const Nav_Top = () => {
 };
 
 export default Nav_Top;
+

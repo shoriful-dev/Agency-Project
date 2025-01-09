@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-[1680px] ml-60 rounded-l-full bg-white">
+    <nav className="w-full bg-white">
       <div className="max-w-container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-24">
           {/* Logo Section */}
@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex justify-between items-center flex-1 xl:ml-36">
+          <div className="hidden lg:flex justify-between items-center flex-1 xl:ml-56">
             <ul className="flex gap-5">
               {menuItems.map(item => (
                 <li key={item} className="group relative">
@@ -71,7 +71,7 @@ const Navbar = () => {
             </ul>
 
             {/* Action Buttons */}
-            <div className="flex items-center mr-[210px] gap-5">
+            <div className="flex items-center gap-5">
               {/* Search Button */}
               <button className="w-14 h-14 border border-Blue rounded-full relative hover:bg-Blue hover:text-white transition-colors group">
                 <IoIosSearch className="text-2xl absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-Blue group-hover:text-white" />
@@ -98,9 +98,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`lg:hidden ${
-            isMenuOpen ? 'block' : 'hidden'
-          } transition-all duration-300 ease-in-out`}
+          className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'} transition-all duration-300 ease-in-out`}
         >
           <div className="px-2 pt-2 pb-3 space-y-1">
             {menuItems.map(item => (

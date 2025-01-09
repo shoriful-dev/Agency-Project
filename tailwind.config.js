@@ -17,6 +17,7 @@ export default {
         iconC: '#95ACFF',
         MenuC: '#1A1A1A',
         HoverC: '#FE681E',
+        gray: '#6B6161',
       },
       backgroundImage: {
         bannerPic: "url('/src/assets/bannerImage.png')",
