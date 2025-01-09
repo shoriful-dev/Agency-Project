@@ -54,7 +54,7 @@ const AboutOurCompany = () => {
                 </div>
               </div>
             </div>
-            <Button btnText={'Read More'} />
+            <Button btnText={'Read More'} className={'mb-20'}/>
           </div>
         </Flex>
       </Container>
