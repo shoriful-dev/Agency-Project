@@ -23,6 +23,7 @@ export default {
       backgroundImage: {
         bannerPic: "url('/src/assets/bannerImage.png')",
         CartBG: "url('/src/assets/CartBG.png')",
+        footerBg: "url('/src/assets/footerBg.png')"
       },
     },
   },
