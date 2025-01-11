@@ -2,7 +2,6 @@ import React from 'react';
 import Flex from '../components/Flex';
 import Image from '../components/Image';
 import Logo from '../assets/navLogo.png';
-import { Link } from 'react-router';
 import { FaAngleDown } from 'react-icons/fa';
 import { IoIosSearch } from 'react-icons/io';
 import { GiShoppingBag } from 'react-icons/gi';
@@ -157,5 +156,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-//  <span className="absolute bottom-[-30px] left-0 w-0 h-0.5 bg-HoverC transition-all duration-300 group-hover:w-full"></span>;

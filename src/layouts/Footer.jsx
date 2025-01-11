@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-footerBg ">
-        <div className="bg-black opacity-80">
+        <div className="bg-black opacity-70">
           <Container className={'relative'}>
             <div className="main">
               <Flex className={'justify-between py-[50px]'}>
@@ -199,9 +199,9 @@ const Footer = () => {
               </Link>
             </div>
           </Container>
-      <div className="">
-        <Image imgSrc={CopyRight}/>
-      </div>
+          <div className="">
+            <Image imgSrc={CopyRight} />
+          </div>
         </div>
       </div>
     </>
