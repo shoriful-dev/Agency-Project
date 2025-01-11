@@ -26,7 +26,7 @@ export default {
         CartBG: "url('/src/assets/CartBG.png')",
         footerBg: "url('/src/assets/footerBg.png')",
         appoinMentBg: "url('/src/assets/appointmentBg.png')",
-        WeAreHireBg: "url('/src/assets/Mask.png')",
+        WeAreHireBg: "url('/src/assets/maskImage.png')",
       },
     },
   },

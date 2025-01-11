@@ -8,6 +8,7 @@ import AppoinMent from "../layouts/AppoinMent";
 import TeamMember from "../layouts/TeamMember";
 import Testimonial from "../layouts/Testimonial";
 import WeAreHire from "../layouts/WeAreHire";
+import OurBlog from "../layouts/OurBlog";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
     <TeamMember />
     <Testimonial />
     <WeAreHire />
+    <OurBlog />
     </>
   )
 }
