@@ -3,9 +3,9 @@ import Container from '../components/Container'
 import Flex from '../components/Flex'
 import Headline from '../components/Headline';
 import ProfileOne from '../assets/profileOne.png';
-import ProfileTwo from '../assets/ProfileTwo.png';
-import ProfileThree from '../assets/ProfileThree.png';
-import ProfileFour from '../assets/ProfileFour.png';
+import ProfileTwo from '../assets/profileTwo.png';
+import ProfileThree from '../assets/profileThree.png';
+import ProfileFour from '../assets/profileFour.png';
 import TeammemberCart from '../components/TeammemberCart';
 import TeamCartTwo from '../components/TeamCartTwo';
 
