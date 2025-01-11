@@ -30,7 +30,7 @@ const PricingCard = ({ btnText, Text, PricingLogo }) => {
           </div>
           <button
             className={
-              'px-36 absolute top-[480px] border border-Blue group-hover:bg-gradient-to-r from-[#FE651B] to-[#FFAA52] text-lg font-DM_sans duration-500 py-3 rounded-full'
+              'px-36 absolute top-[480px] border border-Blue group-hover:bg-gradient-to-r from-[#FE651B] to-[#FFAA52] text-lg font-DM_sans group-hover:text-white py-3 rounded-full'
             }
           >
             {btnText}

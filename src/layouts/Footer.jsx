@@ -38,9 +38,8 @@ const Footer = () => {
                   <input
                     type="text"
                     placeholder="Enter your email address"
-                    className="text-[#B1B1B1] w-[535px] h-20 rounded-full px-8 relative"
+                    className="text-[#B1B1B1] w-[535px] h-20 rounded-full px-8 relative outline-none"
                   />
-                  {/* <BlueButton btnText={'Subscribe Now'} className={'absolute top-5 left-10'}/> */}
                   <button className="px-8 py-4 rounded-full bg-Blue absolute right-3 top-2 text-white font-Nunito text-lg">
                     Subscribe Now
                   </button>
@@ -61,17 +60,17 @@ const Footer = () => {
                     injected humour a randomised words which
                   </p>
                   <Flex className={'space-x-5 pt-5'}>
-                    <span className="w-[33px] h-[33px] rounded-full bg-white relative">
-                      <FaFacebookF className="text-Blue absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+                    <span className="w-[33px] h-[33px] rounded-full bg-ofWhite hover:bg-Blue relative group">
+                      <FaFacebookF className="text-Blue absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover:text-white" />
                     </span>
-                    <span className="w-[33px] h-[33px] rounded-full bg-white relative">
-                      <FaTwitter className="text-Blue absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+                    <span className="w-[33px] h-[33px] rounded-full bg-ofWhite hover:bg-Blue relative group">
+                      <FaTwitter className="text-Blue absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover:text-white" />
                     </span>
-                    <span className="w-[33px] h-[33px] rounded-full bg-white relative">
-                      <FaLinkedinIn className="text-Blue absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+                    <span className="w-[33px] h-[33px] rounded-full bg-ofWhite hover:bg-Blue relative group">
+                      <FaLinkedinIn className="text-Blue absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover:text-white" />
                     </span>
-                    <span className="w-[33px] h-[33px] rounded-full bg-white relative">
-                      <FaYoutube className="text-Blue absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+                    <span className="w-[33px] h-[33px] rounded-full bg-ofWhite hover:bg-Blue relative group">
+                      <FaYoutube className="text-Blue absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover:text-white" />
                     </span>
                   </Flex>
                 </div>

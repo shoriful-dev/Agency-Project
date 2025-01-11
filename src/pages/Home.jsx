@@ -5,6 +5,9 @@ import Cart from "../layouts/Cart";
 import WhyChooseOrtencey from "../layouts/WhyChooseOrtencey";
 import OurPricing from "../layouts/OurPricing";
 import AppoinMent from "../layouts/AppoinMent";
+import TeamMember from "../layouts/TeamMember";
+import Testimonial from "../layouts/Testimonial";
+import WeAreHire from "../layouts/WeAreHire";
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
     <WhyChooseOrtencey />
     <OurPricing />
     <AppoinMent />
+    <TeamMember />
+    <Testimonial />
+    <WeAreHire />
     </>
   )
 }
