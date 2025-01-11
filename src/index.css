@@ -9,4 +9,8 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  ::selection{
+    color: white;
+    background: rgb(254, 101, 27);
+  }
 }

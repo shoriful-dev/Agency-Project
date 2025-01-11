@@ -19,11 +19,13 @@ export default {
         HoverC: '#FE681E',
         gray: '#6B6161',
         ofWhite: '#F4F4FF',
+        placeHolder: '#9A9A9A',
       },
       backgroundImage: {
         bannerPic: "url('/src/assets/bannerImage.png')",
         CartBG: "url('/src/assets/CartBG.png')",
-        footerBg: "url('/src/assets/footerBg.png')"
+        footerBg: "url('/src/assets/footerBg.png')",
+        appoinMentBg: "url('/src/assets/appointmentBg.png')",
       },
     },
   },

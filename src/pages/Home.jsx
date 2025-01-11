@@ -4,6 +4,7 @@ import AboutOurCompany from '../layouts/AboutOurCompany';
 import Cart from "../layouts/Cart";
 import WhyChooseOrtencey from "../layouts/WhyChooseOrtencey";
 import OurPricing from "../layouts/OurPricing";
+import AppoinMent from "../layouts/AppoinMent";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <Cart />
     <WhyChooseOrtencey />
     <OurPricing />
+    <AppoinMent />
     </>
   )
 }
