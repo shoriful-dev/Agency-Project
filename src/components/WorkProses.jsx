@@ -9,7 +9,7 @@ import CompletelySolution from '../assets/CompletelySolution.png';
 const WorkProses = () => {
   return (
     <>
-        <div className="h-[597px] bg-ofWhite py-24 mb-20">
+        <div className="h-[597px] bg-ofWhite py-24">
       <Container>
           <div className="mb-16">
             <Headline text={'Work Prosses'} Heading={'How We Work!'} />

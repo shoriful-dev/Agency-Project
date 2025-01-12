@@ -7,7 +7,6 @@ const TeammemberCart = (props) => {
   return (
     <>
       <Container>
-        <div className="">
           <div className="w-[341px] h-[446px] bg-white rounded-2xl shadow-xl">
             <div className="justify-center flex pt-5">
               <Image
@@ -26,7 +25,6 @@ const TeammemberCart = (props) => {
               </p>
             </div>
           </div>
-        </div>
       </Container>
     </>
   );

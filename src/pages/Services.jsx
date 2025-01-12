@@ -2,6 +2,7 @@ import React from 'react'
 import OurServices from '../components/OurServices';
 import WorkProses from '../components/WorkProses';
 import LetSupport from '../components/LetSupport';
+import Testimonial from '../layouts/Testimonial';
 
 const Services = () => {
   return (
@@ -11,12 +12,12 @@ const Services = () => {
           <h1 className="text-5xl font-bold font-Nunito text-center text-white pt-72">
             Service
           </h1>
-          
         </div>
       </div>
       <OurServices />
       <WorkProses />
       <LetSupport />
+      <Testimonial />
     </>
   );
 }
