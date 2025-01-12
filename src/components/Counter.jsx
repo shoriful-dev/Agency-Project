@@ -13,6 +13,7 @@ const Counter = ({imgSrc, number, title}) => {
             <div className="flex justify-between px-10 py-12 items-center">
               <div>
                 <Image imgSrc={imgSrc} className={'h-[80px]'} />
+                tudsaks
               </div>
               <div>
                 <h2 className="font-Nunito font-bold text-5xl">{number}</h2>
