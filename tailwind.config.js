@@ -27,6 +27,7 @@ export default {
         footerBg: "url('/src/assets/footerBg.png')",
         appoinMentBg: "url('/src/assets/appointmentBg.png')",
         WeAreHireBg: "url('/src/assets/maskImage.png')",
+        HeroBanner: "url('/src/assets/HeroBanner.png')",
       },
     },
   },
