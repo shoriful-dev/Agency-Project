@@ -4,6 +4,8 @@ import AboutOurCompany from '../layouts/AboutOurCompany';
 import WhyChooseOrtencey from '../layouts/WhyChooseOrtencey';
 import ReasonOfOurSuccess from '../components/ReasonOfOurSuccess';
 import TeamMember from '../layouts/TeamMember';
+import CounterCardItem from '../components/CounterCardItem';
+
 
 const About = () => {
   return (
@@ -20,6 +22,7 @@ const About = () => {
       <WhyChooseOrtencey />
       <ReasonOfOurSuccess />
       <TeamMember />
+      <CounterCardItem/>
     </>
   );
 }
