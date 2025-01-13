@@ -13,6 +13,7 @@ import Team from './pages/Team';
 import Pages from './pages/Pages';
 import News from './pages/News';
 import Contact from './pages/Contact';
+import Erorr from './pages/Erorr';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
         <Route path="pages" element={<Pages />}></Route>
         <Route path="news" element={<News />}></Route>
         <Route path="contact" element={<Contact />}></Route>
+        <Route path="*" element={<Erorr />}></Route>
       </Route>
     </>
   )
