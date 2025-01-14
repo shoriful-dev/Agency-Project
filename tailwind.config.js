@@ -25,7 +25,6 @@ export default {
         bannerPic: "url('/src/assets/bannerImage.png')",
         CartBG: "url('/src/assets/CartBG.png')",
         footerBg: "url('/src/assets/footerBg.png')",
-        appoinMentBg: "url('/src/assets/appointmentBg.png')",
         WeAreHireBg: "url('/src/assets/maskImage.png')",
         HeroBanner: "url('/src/assets/HeroBanner.png')",
         SupportBg: "url('/src/assets/supportBg.png')",

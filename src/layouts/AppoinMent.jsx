@@ -12,7 +12,9 @@ const AppoinMent = () => {
         <div className="absolute top-[-100px] left-1/2 transform -translate-x-1/2">
           <Image imgSrc={Funfact} />
         </div>
-        <Container className={'bg-appoinMentBg rounded-b-[50px] py-[100px] px-20'}>
+        <Container
+          className={'bg-Blue rounded-[50px] py-[100px] px-20'}
+        >
           <Flex className={'justify-between pt-16'}>
             <div className="">
               <iframe
@@ -71,7 +73,4 @@ const AppoinMent = () => {
   );
 }
 
-export default AppoinMent
-
-
-// https://youtu.be/kP9TfCWaQT4
+export default AppoinMent;
