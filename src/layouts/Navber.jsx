@@ -84,14 +84,14 @@ const Navbar = () => {
               </li>
               <li className="font-Nunito relative group flex items-center space-x-1">
                 <NavLink
-                  to="/pages"
+                  to="/pricing"
                   className={({ isActive }) =>
                     `hover:text-HoverC flex items-center space-x-1 ${
                       isActive ? 'text-HoverC' : ''
                     }`
                   }
                 >
-                  <span>Pages</span>
+                  <span>Pricing</span>
                   <FaAngleDown />
                 </NavLink>
                 <span className="absolute bottom-[-30px] left-0 w-0 h-0.5 bg-HoverC transition-all duration-300 group-hover:w-full"></span>
