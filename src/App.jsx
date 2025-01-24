@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import {
   createRoutesFromElements,
   createBrowserRouter,
   RouterProvider,
   Route,
-} from "react-router-dom";
+} from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import RootLayouts from './components/RootLayouts';
@@ -22,7 +22,7 @@ const router = createBrowserRouter(
         <Route path="about" element={<About />}></Route>
         <Route path="services" element={<Services />}></Route>
         <Route path="team" element={<Team />}></Route>
-        <Route path="pricing" element={<Pricing/>}></Route>
+        <Route path="pricing" element={<Pricing />}></Route>
         <Route path="faq" element={<FAQ />}></Route>
         <Route path="contact" element={<Contact />}></Route>
         <Route path="*" element={<Erorr />}></Route>
@@ -35,7 +35,7 @@ function App() {
     <>
       <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

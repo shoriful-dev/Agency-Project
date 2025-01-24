@@ -5,14 +5,14 @@ import Logo from '../assets/navLogo.png';
 import { FaAngleDown } from 'react-icons/fa';
 import { IoIosSearch } from 'react-icons/io';
 import { GiShoppingBag } from 'react-icons/gi';
-import { FaArrowRightLong } from 'react-icons/fa6';
+import { FaArrowRightLong, FaBarsProgress } from 'react-icons/fa6';
 import { NavLink } from 'react-router';
 
 const Navbar = () => {
   return (
     <>
-      <div className="bg-white pl-4 max-w-[1680px] ml-auto rounded-l-[50px]">
-        <Flex className={'items-center justify-between'}>
+      <nav className="bg-white pl-4 max-w-[1680px] ml-auto rounded-l-[50px]">
+        <Flex className={'items-center justify-between px-5 md:px-0'}>
           <Flex className={'gap-x-3.5 items-center'}>
             <Image imgSrc={Logo} imgAlt={'Logo'} />
             <div className="">
@@ -24,7 +24,7 @@ const Navbar = () => {
               </h3>
             </div>
           </Flex>
-          <div className="">
+          <div className="hidden md:block">
             <ul className="flex space-x-5">
               <li className="font-Nunito relative group flex items-center space-x-1">
                 <NavLink
@@ -126,7 +126,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="pr-16">
+          <div className="pr-16 hidden md:block">
             <Flex className={'gap-x-6 items-center mr-40'}>
               <div className="px-2 py-4 border-gray-200 space-y-4 flex items-center">
                 <div className="flex justify-center gap-4 pt-3 pr-4">
@@ -146,11 +146,17 @@ const Navbar = () => {
                   <span className="text-base font-DM_sans">Free Quote</span>
                   <FaArrowRightLong />
                 </button>
+                <div className="sm:hidden">
+                  <FaBarsProgress />
+                </div>
               </div>
             </Flex>
           </div>
+            <div className="flex items-center justify-center md:hidden">
+              <FaBarsProgress className='text-2xl text-red-400'/>
+            </div>
         </Flex>
-      </div>
+      </nav>
     </>
   );
 };

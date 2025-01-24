@@ -22,7 +22,7 @@ const Banner = () => {
               }
               imgSrc={Shape}
             />
-            <h3 className="font-Nunito font-bold text-4xl lg:text-6xl w-full lg:w-[695px] text-white leading-[50px] lg:leading-[80px] pt-5">
+            <h3 className="font-Nunito font-bold text-4xl lg:text-6xl w-full lg:w-[695px] text-white leading-[50px] lg:leading-[80px] pt-5 ant">
               Our Digital Agency With Excellence Services
             </h3>
             <h3 className="font-medium font-DM_sans text-lg lg:text-xl text-white w-full lg:w-[594px] pt-8 pb-16">
@@ -46,7 +46,7 @@ const Banner = () => {
   );
 }
 
-export default Banner
+export default Banner;
 
 
 

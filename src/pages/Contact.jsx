@@ -83,6 +83,7 @@ const Contact = () => {
             className="w-full max-w-[1920px] h-[500px] border-0 rounded-lg shadow-lg"
             allowfullscreen=""
             loading="lazy"
+            title="map"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
