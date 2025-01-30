@@ -5,7 +5,7 @@ const CartItem = (props) => {
   const { ImageOne, IconOne, text } = props;
   return (
     <>
-      <div className="h-[408px] w-[342px] rounded-b-3xl shadow-lg group">
+      <div className="h-[408px] w-[342px] rounded-b-3xl shadow-lg group ml-4 md:ml-0 mt-5 md:mt-0">
         <div className="h-[225px] relative">
           <Image imgSrc={ImageOne} className={'absolute z-10'} />
           <Image imgSrc={IconOne} className={''} />
@@ -24,4 +24,4 @@ const CartItem = (props) => {
   );
 }
 
-export default CartItem
+export default CartItem;
