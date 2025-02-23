@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Container from '../components/Container';
 import Flex from '../components/Flex';
 import Button from '../components/Button';
@@ -91,4 +91,4 @@ const Contact = () => {
   );
 }
 
-export default Contact
+export default Contact;
