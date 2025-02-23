@@ -29,37 +29,37 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="First Name*"
-                  className="text-sm text-placeHolder py-3 w-[278px] rounded-3xl px-5 outline-none"
+                  className="text-sm text-placeHolder py-3 w-[278px] rounded-3xl px-5 outline-none focus-within:border focus-within:border-Blue"
                 />
                 <input
                   type="text"
                   placeholder="Last Name*"
-                  className="text-sm text-placeHolder py-3 w-[278px] rounded-3xl px-5 outline-none"
+                  className="text-sm text-placeHolder py-3 w-[278px] rounded-3xl px-5 outline-none focus-within:border focus-within:border-Blue"
                 />
               </div>
               <div className="flex space-x-5">
                 <input
                   type="text"
                   placeholder="Email Address*"
-                  className="text-sm text-placeHolder py-3 w-[278px] rounded-3xl px-5 outline-none"
+                  className="text-sm text-placeHolder py-3 w-[278px] rounded-3xl px-5 outline-none focus-within:border focus-within:border-Blue"
                 />
                 <input
                   type="text"
                   placeholder="Phone Number*"
-                  className="text-sm text-placeHolder py-3 w-[278px] rounded-3xl px-5 outline-none"
+                  className="text-sm text-placeHolder py-3 w-[278px] rounded-3xl px-5 outline-none focus-within:border focus-within:border-Blue"
                 />
               </div>
               <div className="">
                 <input
                   type="text"
                   placeholder="Subject"
-                  className="text-sm text-placeHolder py-3 w-[576px] rounded-3xl px-5 outline-none"
+                  className="text-sm text-placeHolder py-3 w-[576px] rounded-3xl px-5 outline-none focus-within:border focus-within:border-Blue"
                 />
                 <textarea
                   name="text"
                   id="text"
                   placeholder="Your Message here"
-                  className="h-[180px] w-[576px] resize-none rounded-3xl outline-none py-5 px-5 mt-10"
+                  className="h-[180px] w-[576px] resize-none rounded-3xl outline-none py-5 px-5 mt-10 focus-within:border focus-within:border-Blue"
                 ></textarea>
               </div>
               <div className="">
