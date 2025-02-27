@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from '../components/Image';
 import ClipImage from '../assets/clipImage.png';
 import Container from '../components/Container';
